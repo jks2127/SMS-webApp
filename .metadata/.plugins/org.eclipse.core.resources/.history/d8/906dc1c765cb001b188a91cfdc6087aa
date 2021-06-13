@@ -1,0 +1,16 @@
+package com.sms;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/Add")
+public class Add extends HttpServlet{
+	private static final long serialVersionUID = 8458211563686707083L;
+
+	public void doPost(HttpServletRequest req,HttpServletResponse res) {
+		
+	}
+	
+}

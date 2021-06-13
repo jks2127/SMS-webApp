@@ -1,0 +1,17 @@
+package com.sms;
+
+public class StudentData {
+	private String name;
+	private int roll;
+	private String address;
+	private  int phone;
+	
+	public static String getName() {
+		String name=this.name;
+		return name;
+	}
+	public void setName(String name) {
+		this.name=name;
+	}
+
+}

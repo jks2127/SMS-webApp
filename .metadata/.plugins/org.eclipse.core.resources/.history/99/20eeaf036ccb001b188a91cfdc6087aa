@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="">
+		<table>
+		<tr>
+			<a href='Add.html'>Add student Info</a>
+		</tr>
+						
+		</table>
+	</form>
+</body>
+</html>

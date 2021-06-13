@@ -1,0 +1,21 @@
+package com.sms;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class CP {
+	public Connection createC(Credentials cred) {
+		try {
+			Class.forName("com.mysql.cj.jdbc.driver");
+			String userName=cred.getUserName();
+			String password=cred.getPassword();
+			String url="jdbc:mysql://localhost:3306/student_manage";
+			
+			Connection con=DriverManager.getConnection(url,userName, password);
+			
+			return con;
+		}catch(Exception e) {
+			System.out.println("JDBC driver load failure");
+		}
+	}
+}

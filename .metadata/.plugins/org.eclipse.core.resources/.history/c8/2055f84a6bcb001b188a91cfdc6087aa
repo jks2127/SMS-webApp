@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="">
+		<button>Add Student Info</button>
+		<button>Display Student Info</button>
+		<button>Delete Student Info</button>
+		<button>Modify Student Info</button>
+	</form>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Student Management System</title>
+	
+	<style>
+		.container{
+		width:70%;
+		border:2px solid black;
+				text-align:center;
+		
+		font-size:18px;
+		}
+	</style>
+</head>
+
+<body id="body">
+<div class="container">
+	<form action="Login" method="POST">
+		<table>
+			<tr>
+				<td> Name </td>
+				<td><input type="text" name="user_name"></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" name="user_pswd"></td>
+			</tr>
+			<tr>
+				<td><button type="reset">Reset</button></td>
+				<td><button type="submit">Login</button></td>
+			</tr>
+		</table>
+	
+	</form>
+</div>
+</body>
+</html>

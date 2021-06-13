@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1> this is Add.html</h1>
+	<form action="Add">
+		<table>
+			<tr>
+				<td>Student's Name</td>
+				<td><input type="text" name="st_name"></td>
+			</tr>
+			<tr>
+				<td>Student's phone</td>
+				<td><input type="number" name="st_phone"></td>
+			</tr>
+			<tr>
+				<td>Student's address</td>
+				<td><input type="text" name="st_address"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="">
+		<table>
+			<tr>
+				<td>Enter the student roll to delete</td>
+				<td><input type="number" required name="st_roll"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

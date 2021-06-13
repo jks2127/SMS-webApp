@@ -1,0 +1,23 @@
+package com.sms;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/Add")
+public class Add extends HttpServlet{
+	private static final long serialVersionUID = 8458211563686707083L;
+
+	public void doPost(HttpServletRequest req,HttpServletResponse res) throws IOException {
+		StudentData st=new StudentData();
+		
+		st.setName(req.getParameter("st_name"));
+		PrintWriter out=res.getWriter();
+		out.println(st.getName());
+	}
+	
+}
