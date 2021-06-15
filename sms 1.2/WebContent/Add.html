@@ -1,40 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+	<meta charset="utf-8">
+ 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles/styles.css">
+	
+	<title>Insert title here</title>
 </head>
 <body>
-	<h1> this is Add.html</h1>
 	<form action="Add" method="POST">
-		<table>
-			<tr>
-				<td>Student's Name</td>
-				<td><input type="text" name="st_name"></td>
-			</tr>
-			<tr>
-				<td>Student's Roll</td>
-				<td><input type="number" name="st_roll"></td>
-			</tr>
-			<tr>
-				<td>Student's phone</td>
-				<td><input type="number" name="st_phone"></td>
-			</tr>
+		<div class="container mx-auto" style="width:70%; max-width:400px">
+			<div class="form-floating mb-3 mt-5">
+				<input class="form-control" id="name_input" name="st_name">
+				<label class="form-label" for="name_input">Name</label>
+			</div>
 			
-			<tr>
-				<td>Student's address</td>
-				<td><input type="text" name="st_address"></td>
-			</tr>
+			<div class="form-floating mb-3">
+				<input class="form-control" id="roll_input" name="st_roll">
+				<label class="form-label" for="roll_input">Roll No</label>
+			</div>
+			<div class="form-floating mb-3">
+				<input class="form-control" id="phone_input" name="st_phone">
+				<label class="form-label" for="phone_input">Phone No</label>				
+			</div>
+			<div class="form-floating mb-3">
+				<textarea class="form-control" id="address_input" rows="5" name="st_address"></textarea>
+				<label class="form-label" for="address_input">Address</label>
+			</div>
 			
-			<tr>
-				<td></td>
-				<td>
-					<button type="submit">Submit</button>
-				</td>
-			</tr>
+			<button type="submit" class="btn btn-primary w-100">Submit</button>
 			
-	
-		</table>
+		</div>
+			
+		
 	</form>
 </body>
 </html>
